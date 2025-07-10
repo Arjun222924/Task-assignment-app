@@ -2,10 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
+ "scripts": {
   "start": "node index.js",
   "dev": "nodemon index.js",
-  "server": "nodemon index.js"
+  "server": "nodemon index.js",
+  "build": "cd client && npm install && npm run build"
 },
   "keywords": [],
   "author": "",
